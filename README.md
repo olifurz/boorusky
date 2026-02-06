@@ -37,4 +37,4 @@ Instructions tested on an Arch Linux machine.
 4. Navigate to /bin/Release/net9.0/[target] and run!
 
 ## License
-TODO
+Licensed under GNU General Public License v3.0, see [LICENSE](LICENSE) for more information
