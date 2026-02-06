@@ -178,8 +178,8 @@ public class Grabber()
         var messageBefore = GetEnvironmentVariable("MESSAGE_BEFORE");
         var messageAfter = GetEnvironmentVariable("MESSAGE_AFTER");
         var post = $"{messageBefore}\n" +
-                   $"art by: {{entry.Artist}}\\n\n" +
-                   $"[source]({{entry.Source}}) ([meta]({{entry.Url}}))\\n\\n\n" +
+                   $"art by: {entry.Artist}\n" +
+                   $"[source]({entry.Source}) ([meta]({entry.Url}))\n" +
                    $"{messageAfter}";
         var imageContent = await entry.FetchImage();
         if (imageContent != null)
