@@ -61,6 +61,7 @@ internal static class Boorusky
             Logger.LogInformation("Starting schedule, if everything looks good then you can leave this be.\nHit CTRL + C or your shell's suitable key to stop this program if you notice any issues.");
             while (true)
             {
+                Thread.Sleep(1000);
                 var input = Console.ReadLine();
                 if (input != null && input.Equals("exit", StringComparison.OrdinalIgnoreCase))
                 {
@@ -96,7 +97,9 @@ internal static class Boorusky
             }
             catch (Exception ex)
             {
-                Logger?.LogError(ex, "Scheduled post failed");
+                Logger?.LogError(ex, "Scheduled post failed, retrying after 10 seconds");
+                Thread.Sleep(10000);
+                TimerTick(null, null); // Retry
             }
         });
 }
