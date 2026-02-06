@@ -1,6 +1,6 @@
-<br />
+<br/>
 <div align="center">
-  <h1 align="center">boorusky</h3>
+  <h1 align="center">boorusky</h1>
 
   <p align="center">
     Booru bot for ATProtocol based sites
