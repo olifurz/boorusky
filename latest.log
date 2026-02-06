@@ -1,0 +1,48 @@
+06/02/2026 21:02:29 info: Welcome to boorusky!
+06/02/2026 21:02:29 info: Target instance is https://bsky.social/
+06/02/2026 21:02:29 info: Attempting authentication..
+06/02/2026 21:02:30 info: Successfully authenticated as yaoi-bot.bsky.social
+06/02/2026 21:02:30 info: A test run will now occur, this will not post any messages
+06/02/2026 21:02:30 info: NOTE: If it gets stuck in a loop, then BOORU_TAGS, BOORU_MUST_INCLUDE, or BOORU_MUST_EXCLUDE may be invalid or overly specific.
+06/02/2026 21:02:30 info: ** GRAB **
+06/02/2026 21:02:30 info: Searching for yaoi order:random on https://safebooru.donmai.us/ (https://safebooru.donmai.us/posts.json?limit=1&tags=yaoi order:random)
+06/02/2026 21:03:15 info: Welcome to boorusky!
+06/02/2026 21:03:15 info: Target instance is https://bsky.social/
+06/02/2026 21:03:15 info: Attempting authentication..
+06/02/2026 21:04:25 info: Welcome to boorusky!
+06/02/2026 21:04:25 info: Target instance is https://bsky.social/
+06/02/2026 21:04:25 info: Attempting authentication..
+06/02/2026 21:04:25 info: Successfully authenticated as yaoi-bot.bsky.social
+06/02/2026 21:04:25 info: A test run will now occur, this will not post any messages
+06/02/2026 21:04:25 info: NOTE: If it gets stuck in a loop, then BOORU_TAGS, BOORU_MUST_INCLUDE, or BOORU_MUST_EXCLUDE may be invalid or overly specific.
+06/02/2026 21:04:25 info: ** GRAB **
+06/02/2026 21:04:25 info: Searching for yaoi order:random on https://safebooru.donmai.us/ (https://safebooru.donmai.us/posts.json?limit=1&tags=yaoi order:random)
+06/02/2026 21:04:27 info: Grab successful!
+06/02/2026 21:04:27 info: Parsed data:
+ID: 8850469
+Artist: eyes_of_nine
+Tags: 67
+Image Variants: 5
+06/02/2026 21:04:27 info: Fetched https://cdn.donmai.us/original/17/7a/177a793e3b03f4a5a770114054744c5e.png with size 6106559 bytes
+06/02/2026 21:05:18 info: Welcome to boorusky!
+06/02/2026 21:05:18 info: Target instance is https://bsky.social/
+06/02/2026 21:05:18 info: Attempting authentication..
+06/02/2026 21:05:18 info: Successfully authenticated as yaoi-bot.bsky.social
+06/02/2026 21:05:18 info: A test run will now occur, this will not post any messages
+06/02/2026 21:05:18 info: NOTE: If it gets stuck in a loop, then BOORU_TAGS, BOORU_MUST_INCLUDE, or BOORU_MUST_EXCLUDE may be invalid or overly specific.
+06/02/2026 21:05:18 info: ** GRAB **
+06/02/2026 21:05:18 info: Searching for yaoi order:random on https://safebooru.donmai.us/ (https://safebooru.donmai.us/posts.json?limit=1&tags=yaoi order:random)
+06/02/2026 21:05:19 info: Grab successful!
+06/02/2026 21:05:19 info: Parsed data:
+ID: 7913096
+Artist: yama_21
+Tags: 27
+Image Variants: 5
+06/02/2026 21:06:03 info: Welcome to boorusky!
+06/02/2026 21:06:03 info: Target instance is https://bsky.social/
+06/02/2026 21:06:04 info: Attempting authentication..
+06/02/2026 21:06:04 info: Successfully authenticated as yaoi-bot.bsky.social
+06/02/2026 21:06:04 info: A test run will now occur, this will not post any messages
+06/02/2026 21:06:04 info: NOTE: If it gets stuck in a loop, then BOORU_TAGS, BOORU_MUST_INCLUDE, or BOORU_MUST_EXCLUDE may be invalid or overly specific.
+06/02/2026 21:06:04 info: ** GRAB **
+06/02/2026 21:06:04 info: Searching for yaoi order:random on https://safebooru.donmai.us/ (https://safebooru.donmai.us/posts.json?limit=1&tags=yaoi order:random)

@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <PublishSingleFile>true</PublishSingleFile>
+        <SelfContained>true</SelfContained>
+        <RuntimeIdentifiers>linux-x64;</RuntimeIdentifiers>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Config.Net" Version="5.3.0-pre.1" />
+      <PackageReference Include="Costura.Fody" Version="6.0.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive; compile;</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="DotNetEnv" Version="3.1.1" />
+      <PackageReference Include="FishyFlip" Version="4.3.0-alpha.6" />
+      <PackageReference Include="Magick.NET-Q8-AnyCPU" Version="14.10.2" />
+      <PackageReference Include="TinyLogger" Version="3.2.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update=".env-template">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="motd.txt" />
+    </ItemGroup>
+
+</Project>
