@@ -50,7 +50,7 @@ internal static class Boorusky
         {
             Logger.LogWarning("Running dry run! (-dry argument used)");
             Logger.LogInformation("Check the target page after running to make sure it has been successful.");
-            await _grabber?.Post(null, null)!;
+            await _grabber.Post(null, null, true)!;
         }
         else
         {
@@ -93,7 +93,7 @@ internal static class Boorusky
             try
             {
                 Timer.Interval = MilliSecondsLeftTilTheHour();
-                await _grabber?.Post(null, null)!;
+                await _grabber?.Post(null, null, false)!;
             }
             catch (Exception ex)
             {

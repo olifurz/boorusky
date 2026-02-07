@@ -166,12 +166,15 @@ public class Grabber()
         return result;
     }
 
-    public async Task Post(object? source, ElapsedEventArgs? e)
+    public async Task Post(object? source, ElapsedEventArgs? e, bool dry)
     {
         if (_logger == null) throw new NullReferenceException("Logger missing");
 
-        if (_lastHour >= DateTime.Now.Hour && (_lastHour != 23 || DateTime.Now.Hour != 0)) return;
-        _lastHour = DateTime.Now.Hour;
+        if (!dry)
+        {
+            if (_lastHour >= DateTime.Now.Hour && (_lastHour != 23 || DateTime.Now.Hour != 0)) return;
+            _lastHour = DateTime.Now.Hour;
+        }
 
         var entry = await Grab();
         _logger.LogInformation("Preparing to post");
